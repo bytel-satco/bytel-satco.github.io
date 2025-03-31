@@ -16,6 +16,7 @@ body, html {
     background: url('../images/background.jpg') no-repeat center center fixed;
     background-size: cover;
     z-index: -1; /* Garder le background en arrière-plan */
+    margin: -20px auto;
 }
 
 .content-wrapper {
@@ -58,6 +59,10 @@ body, html {
 
 .content-wrapper ul li {
     margin-bottom: 15px; /* Ajouter plus d'espace entre les éléments de liste */
+}
+
+.content-wrapper ul {
+    padding-left: 40px; /* Ajout de l'espacement à gauche pour les bullet points */
 }
 
 @media (max-width: 600px) {
