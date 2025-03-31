@@ -16,12 +16,12 @@ body, html {
     background: url('../images/background.jpg') no-repeat center center fixed;
     background-size: cover;
     z-index: -1; /* Garder le background en arrière-plan */
-    margin: -20px auto;
+    margin: -30px auto;
 }
 
 .content-wrapper {
     position: relative;
-    margin: 40px auto; /* Ajouter une marge en haut de la fenêtre */
+    margin: 30px auto; /* Ajouter une marge en haut de la fenêtre */
     padding: 30px; /* Ajouter plus d'espace autour du texte */
     max-width: 700px; /* Fenêtre un peu plus large */
     background: rgba(255, 255, 255, 0.9);
