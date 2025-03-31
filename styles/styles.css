@@ -33,10 +33,37 @@ body, html {
     font-size: 24px;
 }
 
+.content-wrapper h2 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    color: #333;
+}
+
+.content-wrapper h3 {
+    margin-top: 15px;
+    margin-bottom: 10px;
+    font-size: 18px;
+    color: #555;
+}
+
 .content-wrapper p {
     margin-bottom: 10px;
     font-size: 16px;
     line-height: 1.5;
+    color: #333;
+}
+
+.content-wrapper ul {
+    margin-bottom: 10px;
+    padding-left: 20px;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+}
+
+.content-wrapper ul li {
+    margin-bottom: 10px;
 }
 
 @media (max-width: 600px) {
@@ -49,7 +76,15 @@ body, html {
         font-size: 20px;
     }
 
-    .content-wrapper p {
+    .content-wrapper h2 {
+        font-size: 18px;
+    }
+
+    .content-wrapper h3 {
+        font-size: 16px;
+    }
+
+    .content-wrapper p, .content-wrapper ul {
         font-size: 14px;
     }
 }
