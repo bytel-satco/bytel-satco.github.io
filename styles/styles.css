@@ -24,8 +24,8 @@ body, html {
     margin: 30px auto; /* Ajouter une marge en haut de la fenêtre */
     padding: 30px; /* Ajouter plus d'espace autour du texte */
     max-width: 700px; /* Fenêtre un peu plus large */
-    background: rgba(255, 255, 255, 0.9);
-    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.92);
+    border-radius: 2px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
