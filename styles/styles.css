@@ -20,9 +20,9 @@ body, html {
 
 .content-wrapper {
     position: relative;
-    margin: auto;
-    padding: 20px;
-    max-width: 600px;
+    margin: 40px auto; /* Ajouter une marge en haut de la fenêtre */
+    padding: 30px; /* Ajouter plus d'espace autour du texte */
+    max-width: 700px; /* Fenêtre un peu plus large */
     background: rgba(255, 255, 255, 0.9);
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
@@ -30,39 +30,39 @@ body, html {
 
 .content-wrapper h1 {
     text-align: center;
-    margin-bottom: 20px;
+    margin-bottom: 30px; /* Ajouter plus d'espace sous le titre principal */
     font-size: 24px;
     color: #000000;
 }
 
 .content-wrapper h2 {
-    margin-top: 20px;
-    margin-bottom: 10px;
+    margin-top: 30px; /* Ajouter plus d'espace au-dessus des sous-titres */
+    margin-bottom: 20px; /* Ajouter plus d'espace au-dessous des sous-titres */
     font-size: 20px;
     color: #1d3a4f;
 }
 
 .content-wrapper h3 {
-    margin-top: 15px;
-    margin-bottom: 10px;
+    margin-top: 25px; /* Ajouter plus d'espace au-dessus des sous-sous-titres */
+    margin-bottom: 20px; /* Ajouter plus d'espace au-dessous des sous-sous-titres */
     font-size: 18px;
     color: #1d3a4f;
 }
 
 .content-wrapper p, .content-wrapper ul {
-    margin-bottom: 10px;
+    margin-bottom: 20px; /* Ajouter plus d'espace entre les paragraphes */
     font-size: 16px;
     line-height: 1.5;
     color: #25465f;
 }
 
 .content-wrapper ul li {
-    margin-bottom: 10px;
+    margin-bottom: 15px; /* Ajouter plus d'espace entre les éléments de liste */
 }
 
 @media (max-width: 600px) {
     .content-wrapper {
-        padding: 15px;
+        padding: 20px; /* Ajuster le padding pour les petits écrans */
         font-size: 14px;
     }
 
